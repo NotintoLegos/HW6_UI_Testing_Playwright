@@ -7,6 +7,8 @@ import org.junit.jupiter.api.*;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
+import java.nio.file.Paths;
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MainTest {
 
@@ -106,4 +108,5 @@ class MainTest {
                 // ...existing code for other test steps can be split similarly ...
 
     // Add more individual test methods for each assertion as needed
-    }
+        BrowserContext context2 = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")).setRecordVideoSize(1280, 720));    
+}
