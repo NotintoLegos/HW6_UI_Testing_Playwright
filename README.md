@@ -1,6 +1,8 @@
 John Hope
 Assignment 6- UI Testing
 
+Github: https://github.com/NotintoLegos/HW6_UI_Testing_Playwright
+
 Reflection:
 
     The overall impression I got from the Playwright LLM was that it was much earsier than the manual wirting by far. With the first part of the assignment the progress was slow moving as I ran maven and then found error after error that needed adjusting. With the Playwright LLM I only needed one prompt and it was able to make the tests easily. This may have been due to having a usable file already in the test files but regardless I preferred using it to manual writing.
